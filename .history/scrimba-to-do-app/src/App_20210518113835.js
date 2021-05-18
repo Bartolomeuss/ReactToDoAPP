@@ -18,7 +18,7 @@ handleChange(id) {
         if (todo.id === id) {
             return {
               ...todo,
-              completed: !todo.completed
+              completed = !todo.completed
             }
             
         }
