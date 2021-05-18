@@ -3,12 +3,14 @@ import TodoItem from "./TodoItem"
 import todosData from "./todosData"
 
 function App() {
-
-  const todoItems = todosData.map(item => <TodoItem key={item.id} item={item}/>)
+const test ={
+  thing: "wash",
+  id: 0
+}
 
     return (
         <div className="todo-list">
-           {todoItems}
+            <TodoItem />
             
         </div>
     )

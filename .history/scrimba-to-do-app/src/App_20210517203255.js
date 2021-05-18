@@ -4,14 +4,14 @@ import todosData from "./todosData"
 
 function App() {
 
-  const todoItems = todosData.map(item => <TodoItem key={item.id} item={item}/>)
 
-    return (
+
+return (
         <div className="todo-list">
-           {todoItems}
+            <TodoItem />
             
         </div>
     )
-}
+    }
 
 export default App
